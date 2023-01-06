@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/donation5.jpg");
+  background-color: rgba(22, 10, 10, 0.562);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: white;
+}
+.hero p {
+  font-size: 18px;
+  font-weight: 100;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.hero button {
+  width: 150px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5959;
+  color: white;
+  font-weight: 500;
+}
+.donate-today {
+  height: 100vh;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.donate-today h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.donate-today p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(172, 172, 172);
+}
+.price-list {
+  margin-top: 30px;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+.murgi {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #707070;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 30px;
+  background-color: #fafafa;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.price-list .special {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+.custome-amount input {
+  width: 700px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 2px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+  color: #ff5959;
+}
+
+.custome-amount button {
+  width: 150px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5959;
+  color: white;
+  font-weight: 500;
+}
+.donation-plan {
+  text-align: center;
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.donation-plan h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.donation-plan p {
+  font-size: 18px;
+
+  line-height: 32px;
+}
+.donation-plan-box {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.box-don {
+  padding: 50px 25px;
+  line-height: 32px;
+  background-color: #fafafa;
+  margin: 15px;
+}
+.box-don img {
+  width: 70px;
+}
+
+.box-don h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.box-don p {
+  font-size: 16px;
+  color: rgb(155, 155, 155);
+  font-weight: 300;
+  line-height: 25px;
+}
+.box1 {
+  background-color: #eef6f7;
+}
+.box2 {
+  background-color: #feeeee;
+}
+.box3 {
+  background-color: #fff4d6;
+}
+.live-depend {
+  display: flex;
+  padding: 70px 0;
+  margin-bottom: 70px;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.left-live {
+  text-align: left;
+  margin-bottom: 70px;
+  margin-right: 50px;
+}
+.left-live h3 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.left-live p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.left-live button {
+  width: 250px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5959;
+  color: white;
+  font-weight: 500;
+}
+.right-live img {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 350px;
+}
+.right-live {
+  margin-left: 50px;
+}
+.live-depend-r {
+  display: flex;
+  padding: 70px 0;
+  margin-bottom: 70px;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.right-live-r {
+  margin-right: 50px;
+}
+.right-live-r img {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 350px;
+}
+left-live-r {
+  text-align: left;
+  margin-bottom: 70px;
+  margin-right: 50px;
+}
+.left-live-r h3 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.left-live-r p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.left-live-r button {
+  width: 250px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5959;
+  color: white;
+  font-weight: 500;
+}
+.get-update {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.get-update h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+.get-update p {
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+.input {
+  max-width: 65%;
+  background-color: #fff4d6;
+  padding: 50px 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.input input {
+  width: 300px;
+  border: 1px solid transparent;
+  border-radius: 5px 0px 0px 5px;
+  padding: 15px;
+}
+.input button {
+  padding: 15px;
+  background-color: #ff5959;
+  color: white;
+  border: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.footer {
+  height: 20vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0b0d17;
+}
+#behumble {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ff5959;
+  font-family: "Kaushan Script", cursive;
+}
+
+.footer p {
+  font-size: 16px;
+  color: white;
+}
